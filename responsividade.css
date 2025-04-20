@@ -1,0 +1,151 @@
+@media screen and (max-width: 1404px) {
+    .portfolio-escondido h4 {
+        font-size: 2rem;
+    }
+
+    .portfolio-escondido p {
+        font-size: 1.2rem;
+    }
+
+    .portfolio-escondido a {
+        width: 3rem;
+        height: 3rem;
+        
+    }
+
+    .portfolio-escondido a i {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    .servicos {
+        padding-bottom: 7rem;
+    }
+
+    .portfolio {
+        padding-bottom: 7rem;
+    }
+
+    .contato {
+        min-height: auto;
+    }
+
+    .footer {
+        padding: 2rem 3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #icone-menu {
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background-color: var(--primeira-cor);
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    .menu.ativado {
+        display: block;
+    }
+
+    .menu a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .inicio {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 5rem
+    }
+
+    .primeito-txt,
+    .terceiro-txt {
+        font-size: 2.6rem;
+    }
+
+    .segundo-txt {
+        font-size: 5rem;
+    }
+
+    .img-inicio img {
+        width: 50vw;
+        margin-top: 4rem;
+    }
+
+    .sobre {
+        flex-direction: column-reverse;
+    }
+
+    .sobre img {
+        width: 50vw;
+        margin-top: 4rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .servicos h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 617px) {
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 617px) {
+    html {
+        font-size: 50%;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .contato form {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

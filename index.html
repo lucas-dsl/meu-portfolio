@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <title>Portfólio Lucas</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Portfólio</a>
+
+        <i class="bx bx-menu" id="icone-menu"></i>
+
+        <nav class="menu">
+            <a href="#inicio" class="ativado">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="inicio" id="inicio">
+        <div class="conteudo-inicio">
+            <h1 class="primeiro-txt">Olá, Bem vindo ao meu portifólio <span class="emoji-ola">&#128075;</span></h1>
+            <h2 class="segundo-txt">Lucas da Silva</h2>
+            <h2 class="terceiro-txt">Estou me tornando um <span class="digitando" id="escrita-ativa"></span></h2>
+
+            <p>Com uma vontade enorme de aprender e criar, explorar o desenvolvimento web tem sido uma jornada incrível assim posso dar vida a ideias na web. Cada linha de código é uma novo aprendizado ✨</p>
+
+            <div class="redes-sociais">
+                <a href="https://www.instagram.com/lucas_dsl1/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/lucas-dsl" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/lucas-da-silva-571122346/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+
+            <a href= "https://drive.google.com/file/d/1qi5iz7o-yv1ewD2pZP8vYvXzVN6xuMCG/view?usp=sharing" target="_blank" class="botao">Baixar Currículo</a>
+        </div>
+
+        <div class="img-inicio">
+            <img src="img/minha-foto.png" alt="Retrato digital de um jovem de pele escura com óculos e camiseta azul.">
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-img">
+            <img src="img/minha-foto.png"
+                alt="Segundo retrato digital de um jovem de pele escura com óculos e camiseta azul.">
+        </div>
+
+        <div class="conteudo-sobre">
+
+            <h2 class="titulo-section">Sobre <span>Mim</span></h2>
+
+            <h3>Frontend Developer</h3>
+
+            <p>Olá! Sou o Lucas, estudante de Análise e Desenvolvimento de Sistemas na FIAP. Em busca de novos desafios, estou construindo um portfólio com projetos que refletem minha dedicação ao aprendizado e à aplicação prática de tecnologia. Estou aberto a colaborar com iniciativas que me permitam crescer e expandir minhas habilidades.</p>
+
+            <p>Além dos estudos na FIAP, tenho investido em cursos complementares, como os oferecidos pela Alura, e também estou tendo primeiros contatos em tecnologias como IA, Java, Python e outras linguagens de programação. Estou sempre buscando aprender e me atualizar sobre as novidades do mercado, com foco em desenvolver soluções eficientes. Tenho certeza de que esses conhecimentos vão me ajudar a entregar resultados cada vez mais relevantes.</p>
+            
+        </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+        <h2 class="titulo-section">Alguns <span>Serviços</span></h2>
+    
+        <div class="container-servicos">
+            <div class="card-servicos" data-servico="sites">
+                <i class="bx bx-code-alt"></i>
+                <h3>Desenvolvimento de Sites</h3>
+                <p>Sites como landing pages, Blogs, Educacionais, Para divulgação de eventos, Para apresentação de produtos entre outros.</p>
+                <a href="#" class="botao ler-mais-btn">Ler Mais</a>
+            </div>
+    
+            <div class="card-servicos" data-servico="logos">
+                <i class="bx bxs-paint"></i>
+                <h3>Desenvolvimento de Logos</h3>
+                <p>Logos Combinados, Letra inicial (Monogram), Emblema, Minimalista, Monocromático, entre outras.</p>
+                <a href="#" class="botao ler-mais-btn">Ler Mais</a>
+            </div>
+    
+            <div class="card-servicos" data-servico="videos">
+                <i class="bx bx-bar-chart-alt"></i>
+                <h3>Desenvolvimento de Videos</h3>
+                <p>Apresentação rápida de produto, Tutorial, Dicas rápidas, Antes e Depois, Feedback de clientes entre outros.</p>
+                <a href="#" class="botao ler-mais-btn">Ler Mais</a>
+            </div>
+        </div>
+    
+        <div id="popup-sites" class="popup">
+            <div class="popup-conteudo">
+
+                <span class="fechar-popup">&times;</span>
+
+                <h3>Desenvolvimento de Sites</h3>
+
+                <p>🔹<span>Landing Pages</span> - Páginas objetivas, ideais para campanhas de marketing, anúncios, apresentação de studios. Foco total em conversão de visitantes em clientes.</p>
+
+                <p>🔹<span>Blogs</span> - Perfeitos para quem quer postar um grande conteúdo informativo.Aumentam autoridade e engajamento com seu público.</p>
+
+                <p>🔹<span>Sites Educacionais</span> - Feitos para apresentar cursos, escolas e aulas com áreas exclusivas para, vídeos, materiais e organização do conteúdo.</p>
+
+                <p>🔹<span>Sites para Eventos</span> - Mostra todas as informações do seu evento num só lugar. Inclui data, local, programação e muito mais.</p>
+
+                <p>🔹<span>Sites para Apresentação de Produtos</span> - Apresente seus produtos com visual moderno e profissional.</p>
+
+            </div>
+        </div>
+    
+        <div id="popup-logos" class="popup">
+            <div class="popup-conteudo">
+                <span class="fechar-popup">&times;</span>
+                <h3>Desenvolvimento de Logos</h3>
+                <p>🔹<span>Logo Combinado</span> - Mistura símbolo e texto em harmonia, tornando a marca ou o produto versátil. Ótimo para quem quer ganhar reconhecimento pelo nome e pelo ícone.</p>
+                <p>🔹<span>Logo Letra Inicial (Monogram)</span> - Criação baseada nas iniciais da marca, com visual elegante e direto. Ideal para marcas pessoais ou nomes com mais de uma palavra.</p>
+                <p>🔹<span>Logo Emblema</span> - Logo com formato fechado, como selos ou brasões. Traz um ar tradicional e transmite confiança e autoridade.</p>
+                <p>🔹<span>Logo Minimalista</span> - Design limpo, simples e sofisticado, com foco no essencial. Perfeito para marcas modernas que valorizam elegância e clareza.</p>
+                <p>🔹<span>Logo Monocromático</span> - Logo em uma única cor, versátil e impactante Funciona bem em qualquer fundo, material ou plataforma.</p>
+            </div>
+        </div>
+    
+        <div id="popup-videos" class="popup">
+            <div class="popup-conteudo">
+                <span class="fechar-popup">&times;</span>
+                <h3>Desenvolvimento de Videos (1min - 3min)</h3>
+                <p>🔹<span>Video para Apresentação de Produto</span> - Vídeos curtos que mostram o produto em ação, com foco nos seus principais benefícios. Perfeitos para chamar atenção e gerar interesse imediato.</p>
+                <p>🔹<span>Video Tutorial</span> - Ensina passo a passo como usar seu produto ou serviço de forma clara e objetiva. Gera valor, confiança e reduz dúvidas dos seus clientes.</p>
+                <p>🔹<span>Video de Dicas Rápidas</span> - Conteúdos curtos com truques, ideias ou soluções úteis. Ótimo para engajar nas redes e mostrar autoridade no assunto.</p>
+                <p>🔹<span>Video Antes e Depois</span> - Mostra a transformação gerada pelo seu produto ou serviço. Visualmente impactante e excelente para gerar prova social.</p>
+                <p>🔹<span>Video Feedback de Clientes</span> - Depoimentos reais em vídeo aumentam a credibilidade e geram confiança. Funciona muito bem como prova social e atrai novos clientes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="titulo-section">Ultimos <span>Projetos</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="img/empresa-ficticia.png" alt="">
+                <div class="portfolio-escondido">
+                    <h4>Agência LK</h4>
+                    <p>Site feito para modelo de demonstração de uma agência fictícia.</p>
+                    <a href="https://github.com/lucas-dsl/AgenciaLK" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/studio-tatoo.png" alt="">
+                <div class="portfolio-escondido">
+                    <h4>Studio Tatoo</h4>
+                    <p>Modelo feito para apresentação bem completa de um studio de tatuagem.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/tela-de-login.png" alt="">
+                <div class="portfolio-escondido">
+                    <h4>Tela de Login</h4>
+                    <p>Tela de login com um design bem chamativo e moderno.</p>
+                    <a href="https://github.com/lucas-dsl/PaginaLogin" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+        
+            <div class="portfolio-box">
+                <img src="img/perfil-de-redes-sociais.png" alt="">
+                <div class="portfolio-escondido">
+                    <h4>Perfil de Redes</h4>
+                    <p>Site criado para divulgar algumas de minhas redes sociais.</p>
+                    <a href="https://github.com/lucas-dsl/social-links-profile" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/card-de-visualizacao-de-produto.png" alt="">
+                <div class="portfolio-escondido">
+                    <h4>Card de Produto</h4>
+                    <p>Site criado para visualização de produto.</p>
+                    <a href="https://github.com/lucas-dsl/product-preview-card" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/buscar-cep.png" alt="">
+                <div class="portfolio-escondido">
+                    <h4>Consulta de CEP</h4>
+                    <p>Site feito para buscar endereços utilizando o cep.</p>
+                    <a href="https://github.com/lucas-dsl/BuscarCep" target="_blank"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2 class="titulo-section">Entre em <span>Contato</span></h2>
+
+        <form action="https://formspree.io/f/movegpda" method="post">
+            <div class="input-box">
+                <input type="text" placeholder="Nome Completo" name="nome" required>
+                <input type="email" placeholder="Endereço de Email" name="email" required>
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Número de telefone" name="numero-telefone" required>
+                <input type="text" placeholder="Assunto" name="assunto" required>
+            </div>
+            <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Digite aqui sua mensagem" required></textarea>
+
+            <div>
+                <input type="submit" value="Enviar Mensagem" class="botao">
+            </div>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="texto-footer">
+            <p>Copyright &copy; 2025 by Lucas da Silva | Todos os direitos reservados</p>
+        </div>
+
+        <div class="icone-footer"><a href="#inicio"><i class="bx bx-up-arrow-alt"></i></a></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
