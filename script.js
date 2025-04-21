@@ -45,12 +45,12 @@ ScrollReveal().reveal('.conteudo-inicio p, .conteudo-sobre', { origin: "right" }
 
 // Animação de digitação para ativar só quando tiver abaixo de 1024 pixels de largura
 if (window.innerWidth <= 1023) {
-    document.getElementById("escrita-ativa").innerHTML = "Front-end Developer"
+    document.getElementById("escrita-ativa").innerHTML = "Frontend Developer"
 } else {
     function iniciarAnimacaoDigitando() {
 
         new Typed('.digitando', {
-            strings: ['Front-end Developer'],
+            strings: ['Frontend Developer'],
             typeSpeed: 100,
             backSpeed: 100,
             backDelay: 1000,
